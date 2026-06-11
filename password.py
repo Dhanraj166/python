@@ -11,11 +11,12 @@ if(length>=8 and length<=12):
     for i in range(length):
         if password[i]=="@" or password[i]=="#" or password[i]=="*" or password[i]=="$" or password[i]==".":
             var=True
-        
+else:
+    print("password must be 8 to 12 character")   
             
 if var:
     print("password is ok")
 else:
     print("password must be spacial character")
-    print("password must be 8 to 12 character")
+    
 

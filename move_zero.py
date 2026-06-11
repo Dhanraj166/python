@@ -1,17 +1,17 @@
-def move_zero(arr):
-    result = []
+# def move_zero(arr):
+#     result = []
     
-    for i in range(len(arr)):
-        if arr[i] != 0:
-            result.append(arr[i])
+#     for i in range(len(arr)):
+#         if arr[i] != 0:
+#             result.append(arr[i])
             
     
-    while len(arr) != len(result):
-        result.append(0)
+#     while len(arr) != len(result):
+#         result.append(0)
         
-    return result
+#     return result
 
-print(move_zero([1, 2, 0, 3, 0, 4]))
+# print(move_zero([1, 2, 0, 3, 0, 4]))
 
 
 # ---------------------------------------------------------------------------------------------------
