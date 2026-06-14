@@ -52,6 +52,7 @@ while(n<100):
             break
         div += 1
     if(count == 0):
+        print(n)
         if(first == 0):
             first = n
         last = n
