@@ -9,4 +9,3 @@ for ch in str:
             longest = word
         word = ""
 print(longest)
-
